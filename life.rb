@@ -28,7 +28,7 @@ any_key = gets.chomp.downcase
 
 if any_key.include? "go"
   puts
-puts "Its your first day of your first year of High School. GREAT!!!!!!"
+puts "Its your first day of your first year of High School. BE EXCITED! SCHOOL IS AWESOME!"
 
 puts
 puts "Are you ready?"
