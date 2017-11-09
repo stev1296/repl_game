@@ -20,17 +20,14 @@ else
   exit
 end
 
-puts "Years have passed and you have become a teen. Awsome! you are doing good so far"
-puts
+puts "Years have passed and you have become a teen. Awsome! you are doing good so far \n"
 puts "put go to continue."
 
 any_key = gets.chomp.downcase
 
-if any_key.include? "go"
-  puts
-puts "Its your first day of your first year of High School. BE EXCITED! SCHOOL IS AWESOME!"
+if any_key.include? "go \n"
 
-puts
+puts "Its your first day of your first year of High School. BE EXCITED! SCHOOL IS AWESOME! \n"
 puts "Are you ready?"
 
 else
@@ -42,18 +39,18 @@ puts "press y for yes n for no"
 user_option = gets.chomp.downcase
 
 # Yes Option
-if user_option.include? "y"||"yes"
-  puts
+if user_option.include? "y"||"yes \n"
+
   puts "Welcome to Wyncode Academy!"
 
   puts "At the door a you meet the teacher"
-  puts "Will you be nice or not?"
-  puts
+  puts "Will you be nice or not? \n"
+
   puts "Put rude or nice"
 
   user_option2 = gets.chomp!.downcase
-  if user_option2.include?("nice")
-    puts
+  if user_option2.include?("nice \n")
+
 
     puts "Hi! I'm Glen and I will be your teacher this semester."
     puts " "
